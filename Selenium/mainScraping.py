@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # login()
 
     """Apre Firefox e carica una pagina (Selenium)"""
-    # apriFirefox()
+    apriFirefox()
 
     """Ricerca in Google con stampa a video dei link del contenuto e su files (html/png) della pagina risultante dalla ricerca fatta (Selenium,Phantomjs)"""
     # cerca()
