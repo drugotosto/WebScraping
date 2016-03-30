@@ -1,7 +1,6 @@
 __author__ = 'maury'
 import robotparser
 
-
 def verifica():
     """
     Verifica la possibilita da parte dello scraper di eseguire accedere a determinati url

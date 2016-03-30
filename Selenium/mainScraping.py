@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # pulisciTesto()
 
     """Login alla pagina con memorizzazione dei cookie da utilizzare successicamente per altre pagine (requests.Session())"""
-    # login()
+    login()
 
     """Apre Firefox e carica una pagina (Selenium)"""
     apriFirefox()
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # cerca()
 
     """Stampa testo di una pagina solo dopo la comparsa di un dato elemento"""
-    # recuperoDati()
+    recuperoDati()
 
     """Gestione di una redirezione tramite Javascript"""
     # waitForLoad()
