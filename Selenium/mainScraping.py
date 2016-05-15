@@ -18,21 +18,21 @@ if __name__ == '__main__':
     # pulisciTesto()
 
     """Login alla pagina con memorizzazione dei cookie da utilizzare successicamente per altre pagine (requests.Session())"""
-    login()
+    # login()
 
     """Apre Firefox e carica una pagina (Selenium)"""
-    apriFirefox()
+    # apriFirefox()
 
     """Ricerca in Google con stampa a video dei link del contenuto e su files (html/png) della pagina risultante dalla ricerca fatta (Selenium,Phantomjs)"""
-    # cerca()
+    cerca()
 
     """Stampa testo di una pagina solo dopo la comparsa di un dato elemento"""
-    recuperoDati()
+    # recuperoDati()
 
     """Gestione di una redirezione tramite Javascript"""
     # waitForLoad()
 
     "Gestione dei Cookies con Selenium"
-    # cookieManage()
+    cookieManage()
 
-    retriveRestaurants("torino",1,"drugotosto@libero.it","UfhA2ybn")
+    # retriveRestaurants("torino",1,"drugotosto@libero.it","UfhA2ybn")

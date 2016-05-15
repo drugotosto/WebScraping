@@ -23,12 +23,9 @@ def cerca():
     browser.get('http://www.google.com')
     elem = browser.find_element_by_name('q')  # Find the search box
     elem.send_keys('seleniumhq' + Keys.RETURN)
-    content = browser.find_element_by_id("res")
-    browser.get_screenshot_as_file("C:\\Users\\drugo\\PycharmProjects\\WebScraping\\SeleniumManage\\cerca.png")
-    output_file = open("C:\\Users\\drugo\\PycharmProjects\\WebScraping\\SeleniumManage\\cerca.html","w")
-    pagina = bytes(browser.page_source, "UTF-8")
-    pagina=pagina.decode("ascii","ignore")
-    output_file.write(pagina)
+    browser.get_screenshot_as_file("cerca.png")
+    output_file = open("cerca.html","w")
+    output_file.write(browser.page_source.encode('utf-8').strip())
     output_file.close()
     print("CONTEUNUTO PAGINA:",browser.find_element_by_tag_name("body").text)
     """Stampa dei vari link (non nulli) con relativo testo associato"""
@@ -36,4 +33,5 @@ def cerca():
     links=[link for link in links if link.text!=""]
     for link in links:
         print("\nTesto Link:",link.text)
+
 
